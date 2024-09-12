@@ -1,0 +1,12 @@
+{
+    "name":"Tiger",
+    "version":"0.0.2",
+    "manifest_version": 3,
+
+     "icons": {
+                "128": "clock.png"
+     },
+        "action":{
+                   "default_popup":"popup.html"
+     }
+}

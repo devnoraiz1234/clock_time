@@ -1,0 +1,43 @@
+#clockContainer {
+	position: relative;
+    margin-top: 10px;
+	height: 300;
+	/*to make the height and width responsive*/
+	width: 300;
+	background: url(/Images/watch2.webp) no-repeat;
+	/*setting our background image*/
+	background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 1.2%;
+	height: 16%;
+	top: 17%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.3%;
+	height: 25%;
+	top: 8%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 25%;
+	top: 8%;
+	left: 49.25%;
+	opacity: 0.8;
+}
